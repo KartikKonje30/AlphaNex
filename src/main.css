@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Aeonik';
+    src: url('knk202410/pms_fe/src/assets/Aeonik-/Aeonik-Regular.otf') format('Openface');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply px-4 py-2 rounded-xl font-Aeonik font-normal inline-flex items-center justify-center;
+    }
+
+    .btn-primary{
+        @apply bg-[#3248F2] text-white;
+    }
+
+    .btn-text-black{
+        @apply text-black bg-transparent  ; 
+    }
+
+    .btn-text-white{
+        @apply text-white bg-transparent;
+    }
+
+    .logo-ticker-image{
+        @apply h-8 w-auto;
+    }
+
+    .section-title{
+        @apply text-center font-Aeonik font-normal text-3xl md:text-[42px] md:leading-[60px] tracking-tight bg-gradient-to-b from-black to-[#3248F2] text-transparent bg-clip-text; 
+    }
+
+    .section-description{
+        @apply text-center font-Aeonik font-normal text-[20px] leading-[30px] text-slate-500;
+    }
+
+    .section-heading{
+        @apply max-w-[840px] mx-auto;
+    }
+
+    .section-subheading{
+        @apply text-left font-Aeonik font-normal text-3xl md:text-[38px] md:text-center md:leading-[60px] tracking-tight text-black;
+    }
+
+}
