@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 const ErrorPage = () => {
   return (
-    <section className='flex justify-center'>
-      <div className="container flex flex-col items-center justify-center section-heading gap-4 pb-10 my-12">
+    <section className='flex justify-center items-center'>
+      <div className="flex flex-col items-center justify-center section-heading gap-5 my-40">
 
           <h2 className='section-title text-7xl'>404</h2>
           <h3 className='section-subheading text-slate-700'>UH! OH! You're Lost.</h3>
