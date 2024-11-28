@@ -1,8 +1,17 @@
+
+
 /** @type {import('tailwindcss').Config} */
+
 export default {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: [
+    "./src/**/*.{html,js,jsx}"
+  ],
   theme: {
     extend: {
+      colors: {
+        'custom': '#3248F2',
+        'customBg': '#EEEFFC', 
+      },
       fontFamily: {
         Aeonik: ["Aeonik","sans-serif"],
       },
